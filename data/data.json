@@ -1,0 +1,146 @@
+var data = {
+	"bgcount":6,
+	"event":[
+		{
+			"title": "3D列印工作坊",
+			"pic" : "2016.3.18.jpg",
+			"subevent":[
+				{
+					"title"   :"",
+					"time"    :"\nA: 3/18 (五) 19:00~22:00 3/19\n B: (六) 09:00~12:00\n",
+					"place"   :"共教121",
+					"content" :"詢問度很高的3D列印工作坊又來囉！\n你是不是常常在新聞媒體上看到3D列印呢？\n想不想透過3D列印機，將你的創意『印』出來呢\n其實動手做並沒有你想的那麼難\n來參加我們的課程，一起動手做出自己的創意吧\n 這次工作坊拆成兩天的課程\n讓同學有足夠的時間消化吸收知識\n也將實作的時間拉長~~ 讓你把實力帶回家！\n課程內容：\nA、3D列印發展與概論、3D建模繪圖\nB、3D印表機原理介紹與實戰\n",
+					"signup"  :"",
+					"record"  :"https://www.facebook.com/media/set/?set=a.691650887604822.1073741840.610943155675596&type=3"
+				}
+			]
+		},
+		
+	],
+
+	"device": [
+		{
+			"title":"3D 印表機",
+			"pic":"3Dprinter.jpg",
+			"content":"空間共有兩台3D印表機，機型分別為XYZ機構的SciBot與Delta機構的Kossel，詳細機體參數請點下方連結\n目前提供代印服務，價格為1NT$/min，由空間負責的人員操作機器列印",
+			"info":[
+				{
+					"name":"SciBot",
+					"link":"http://maker-village.tk/?p=317"
+				},
+				{
+					"name":"Kossel",
+					"link":"http://maker-village.tk/?p=336"
+				},
+				{
+					"name":"操作事項",
+					"link":"https://makerspacexccu.hackpad.com/3DP-Tip-FKbnaxyFWqY"
+				}
+			]
+		},
+		{
+			"title":"電子焊接器材",
+			"pic":"Soldering_iron.jpg",
+			"content":"常備烙鐵與烙鐵架一隻，焊錫一捲，另有成員自行攜帶的烙鐵，總數約五支",
+			"info":[]
+		},
+		{
+			"title":"雷射雕刻機",
+			"pic":"",
+			"content":"簡易型雷射雕刻機，使用1W藍光雷射，可做非金屬與非透明材質之表面雕刻",
+			"info":[
+				{
+					"name":"操作事項",
+					"link":"https://makerspacexccu.hackpad.com/skJK4I26Sld"
+				}
+			]
+		},
+		{
+			"title":"示波器",
+			"pic":"Oscilloscope.jpg",
+			"content":"二手示波器，型號HM205-3，配有探針一支，感謝口丁(Openlab Taipei)贊助",
+			"info":[
+				{
+					"name":"詳細參數",
+					"link":"http://maker-village.tk/?p=343"
+				},
+				{
+					"name":"官方手冊",
+					"link":"./data/HM205-3_english.pdf"
+				}
+			]
+		},
+		{
+			"title":"電源供應器",
+			"pic":"power_supply.jpg",
+			"content":"二手電源供應器，型號DPS-1303AF，感謝口丁(Openlab Taipei)贊助",
+			"info":[
+			{
+					"name":"詳細參數",
+					"link":"http://maker-village.tk/?p=350"
+			}
+			]
+		}
+	],
+
+	"project":[
+ 	],
+
+	"member":[
+		{
+			"name":"吳秩達",
+			"head":"830437.jpg",
+			"post":"Maker Village 共同創辦人",
+			"profile":"對科學頗有熱情的小小科青。希望作出讓人幸福的東西～"
+		},
+		{
+			"name":"黃俊穎",
+			"head":"DJ4nfI2.jpg",
+			"post":"Maker Village共同創辦人、課程部",
+			"profile":"不要問我做這個能幹嘛，請問我為什麼想要這麼做，雖然答案通常會是\"因為我爽~\""
+		},
+		{
+			"name":"許軒懷",
+			"head":"HzDqqEq.jpg", 
+			"post":"Maker Village共同創辦人、網路部",
+			"profile":"總是在機械與程式碼之間擺盪，最近多了個3DP\n想要自幹一台3DP"
+		},
+		{
+			"name":"黃昱峯",
+			"head":"11215.jpg",
+			"post":"Maker Village 網路部",
+			"profile":""
+		},
+		{
+			"name":"張瑜芬",
+			"head":"4HDidSO.jpg",
+			"post":"Maker Village 行銷部、粉專小編",
+			"profile":""
+		},
+		{
+			"name":"葉卜綺",
+			"head":"12180.jpg",
+			"post":"Maker Village 課程活動部",
+			"profile":"我是一個小maker\n一起來MV動手做吧！"
+		},
+		{
+			"name":"林德祐",
+			"head":"oNDlqbY.jpg",
+			"post":"Maker Village 課程活動部",
+			"profile":"我是個小MAKER>.^"
+		},
+		{
+			"name":"許詔雯",
+			"head":"",
+			"post":"Maker Village 財務部",
+			"profile":""
+		},
+		{
+			"name":"蕭育禮",
+			"head":"fo4JcJC.jpg",
+			"post":"Maker Village 小小兵",
+			"profile":"想要一個微波爐來微波BANANA～\nI am not a Maker , I am a Minion !"
+		} 
+ 	]	
+
+};

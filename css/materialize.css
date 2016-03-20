@@ -150,12 +150,12 @@
 
 /* line 371, ../sass/components/_color.scss */
 .red {
-  background-color: #FF312E !important;
+  background-color: #F61A25 !important;
 }
 
 /* line 374, ../sass/components/_color.scss */
 .red-text {
-  color: #FF312E !important;
+  color: #F61A25 !important;
 }
 
 /* line 379, ../sass/components/_color.scss */
@@ -240,12 +240,12 @@
 
 /* line 379, ../sass/components/_color.scss */
 .red.alpha-5 {
-  background-color: rgba(255, 49, 46, 0.5) !important;
+  background-color: rgrgb(255, 120, 118) !important;
 }
 
 /* line 382, ../sass/components/_color.scss */
 .red-text.text-alpha-5 {
-  color: rgba(255, 49, 46, 0.5) !important;
+  color: rgrgb(255, 120, 118) !important;
 }
 
 /* line 379, ../sass/components/_color.scss */
@@ -3349,7 +3349,7 @@ video.responsive-video {
   float: none;
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1120px) {
   /* line 172, ../sass/components/_global.scss */
   .pagination {
     width: 100%;
@@ -3429,7 +3429,7 @@ ul.staggered-list li {
   }
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1120px) {
   /* line 247, ../sass/components/_global.scss */
   .hide-on-med-and-down {
     display: none !important;
@@ -3443,28 +3443,28 @@ ul.staggered-list li {
   }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1020px) {
+@media only screen and (min-width: 900px) and (max-width: 1120px) {
   /* line 257, ../sass/components/_global.scss */
   .hide-on-med-only {
     display: none !important;
   }
 }
 
-@media only screen and (min-width: 1021px) {
+@media only screen and (min-width: 1121px) {
   /* line 262, ../sass/components/_global.scss */
   .hide-on-large-only {
     display: none !important;
   }
 }
 
-@media only screen and (min-width: 1021px) {
+@media only screen and (min-width: 1121px) {
   /* line 267, ../sass/components/_global.scss */
   .show-on-large {
     display: initial !important;
   }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1020px) {
+@media only screen and (min-width: 900px) and (max-width: 1120px) {
   /* line 272, ../sass/components/_global.scss */
   .show-on-medium {
     display: initial !important;
@@ -3485,7 +3485,7 @@ ul.staggered-list li {
   }
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1120px) {
   /* line 287, ../sass/components/_global.scss */
   .show-on-medium-and-down {
     display: initial !important;
@@ -3567,7 +3567,7 @@ td, th {
   border-radius: 2px;
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1120px) {
   /* line 372, ../sass/components/_global.scss */
   table.responsive-table {
     width: 100%;
@@ -8120,7 +8120,7 @@ nav ul a span.badge {
     width: 85%;
   }
 }
-@media only screen and (min-width: 1021px) {
+@media only screen and (min-width: 1121px) {
   /* line 12, ../sass/components/_grid.scss */
   .container {
     width: 70%;
@@ -8388,7 +8388,7 @@ nav ul a span.badge {
     margin-left: 100%;
   }
 }
-@media only screen and (min-width: 1021px) {
+@media only screen and (min-width: 1121px) {
   /* line 99, ../sass/components/_grid.scss */
   .row .col.l1 {
     width: 8.33333%;
@@ -8522,7 +8522,7 @@ nav .nav-wrapper i {
   display: block;
   font-size: 2rem;
 }
-@media only screen and (min-width: 1021px) {
+@media only screen and (min-width: 1121px) {
   /* line 24, ../sass/components/_navbar.scss */
   nav a.button-collapse {
     display: none;
@@ -8562,33 +8562,23 @@ nav .brand-logo.center {
 /* line 56, ../sass/components/_navbar.scss */
 nav .brand-logo img {
   height: 56px;
-  background: #e0e0e0;
-  padding-right: 56px;
-  padding-left: 15px;
+  padding-left: 0px;
   /*Chrome,Safari*/
-  -webkit-clip-path: polygon(0px 0, 100% 0, calc(100% - 32.33px) 100%, 0px 100%);
   /* Firefox*/
-  clip-path: url(../pic/logo-clip.svg#LogoClip);
   /* iOS support */
-  -webkit-mask: url(../pic/logo-clip.svg);
   transition: -webkit-clip-path 0.5s, clip-path 0.5s, height 0.5s, padding-right0 0.5s;
 }
-/* line 76, ../sass/components/_navbar.scss */
+/* line 77, ../sass/components/_navbar.scss */
 nav .brand-logo .top {
-  height: 128px;
-  background: #e0e0e0;
-  padding-right: 128px;
-  padding-left: 15px;
+  height: 120px;
+  padding-left: 0px;
   /*Chrome,Safari*/
-  -webkit-clip-path: polygon(0px 0, 100% 0, calc(100% - 73.9px) 100%, 0px 100%);
   /* Firefox*/
-  clip-path: url(../pic/logo-clip-top.svg#LogoClipTop);
   /* iOS support */
-  -webkit-mask: url(../pic/logo-clip-top.svg);
   transition: -webkit-clip-path 0.5s, clip-path 0.5s, height 0.5s, padding-right0 0.5s;
 }
-@media only screen and (max-width: 1020px) {
-  /* line 98, ../sass/components/_navbar.scss */
+@media only screen and (max-width: 1120px) {
+  /* line 99, ../sass/components/_navbar.scss */
   nav .brand-logo.left, nav .brand-logo.right {
     padding: 0;
     -webkit-transform: none;
@@ -8597,38 +8587,33 @@ nav .brand-logo .top {
     -o-transform: none;
     transform: none;
   }
-  /* line 103, ../sass/components/_navbar.scss */
+  /* line 104, ../sass/components/_navbar.scss */
   nav .brand-logo.left {
     left: 0.5rem;
   }
-  /* line 104, ../sass/components/_navbar.scss */
+  /* line 105, ../sass/components/_navbar.scss */
   nav .brand-logo.right {
     right: 0.5rem;
     left: auto;
   }
-  /* line 109, ../sass/components/_navbar.scss */
+  /* line 110, ../sass/components/_navbar.scss */
   nav .brand-logo .top, nav .brand-logo img {
     height: 56px;
     /*Chrome,Safari*/
-    -webkit-clip-path: polygon(0px 0, 100% 0, calc(100% - 32.33px) 100%, 0px 100%);
     /* Firefox*/
-    clip-path: url(../pic/logo-clip.svg#LogoClip);
     /* iOS support */
-    -webkit-mask: url(../pic/logo-clip.svg);
-    padding-right: 56px;
-    padding-left: 15px;
   }
 }
-/* line 127, ../sass/components/_navbar.scss */
+/* line 128, ../sass/components/_navbar.scss */
 nav .brand-logo.right {
   right: 0.5rem;
   padding: 0;
 }
-/* line 135, ../sass/components/_navbar.scss */
+/* line 136, ../sass/components/_navbar.scss */
 nav ul {
   margin: 0;
 }
-/* line 138, ../sass/components/_navbar.scss */
+/* line 139, ../sass/components/_navbar.scss */
 nav ul li {
   -webkit-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
@@ -8638,43 +8623,43 @@ nav ul li {
   float: left;
   padding: 0;
 }
-/* line 143, ../sass/components/_navbar.scss */
+/* line 144, ../sass/components/_navbar.scss */
 nav ul li:hover, nav ul li.active {
   background-color: rgba(0, 0, 0, 0.1);
 }
-/* line 147, ../sass/components/_navbar.scss */
+/* line 148, ../sass/components/_navbar.scss */
 nav ul a {
   font-size: 1.2rem;
   color: #fff;
   display: block;
   padding: 0 15px;
 }
-/* line 154, ../sass/components/_navbar.scss */
+/* line 155, ../sass/components/_navbar.scss */
 nav ul.left {
   float: left;
 }
-/* line 160, ../sass/components/_navbar.scss */
+/* line 161, ../sass/components/_navbar.scss */
 nav .input-field {
   margin: 0;
 }
-/* line 163, ../sass/components/_navbar.scss */
+/* line 164, ../sass/components/_navbar.scss */
 nav .input-field input {
   height: 100%;
   font-size: 1.2rem;
   border: none;
   padding-left: 2rem;
 }
-/* line 169, ../sass/components/_navbar.scss */
+/* line 170, ../sass/components/_navbar.scss */
 nav .input-field input:focus, nav .input-field input[type=text]:valid, nav .input-field input[type=password]:valid, nav .input-field input[type=email]:valid, nav .input-field input[type=url]:valid, nav .input-field input[type=date]:valid {
   border: none;
   box-shadow: none;
 }
-/* line 175, ../sass/components/_navbar.scss */
+/* line 176, ../sass/components/_navbar.scss */
 nav .input-field label {
   top: 0;
   left: 0;
 }
-/* line 179, ../sass/components/_navbar.scss */
+/* line 180, ../sass/components/_navbar.scss */
 nav .input-field label i {
   color: rgba(255, 255, 255, 0.7);
   -webkit-transition: color 0.3s;
@@ -8683,11 +8668,11 @@ nav .input-field label i {
   -ms-transition: color 0.3s;
   transition: color 0.3s;
 }
-/* line 183, ../sass/components/_navbar.scss */
+/* line 184, ../sass/components/_navbar.scss */
 nav .input-field label.active i {
   color: #fff;
 }
-/* line 184, ../sass/components/_navbar.scss */
+/* line 185, ../sass/components/_navbar.scss */
 nav .input-field label.active {
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
@@ -8696,25 +8681,25 @@ nav .input-field label.active {
   transform: translateY(0);
 }
 
-/* line 193, ../sass/components/_navbar.scss */
+/* line 194, ../sass/components/_navbar.scss */
 .navbar-fixed {
   position: relative;
   height: 56px;
   z-index: 998;
 }
-/* line 198, ../sass/components/_navbar.scss */
+/* line 199, ../sass/components/_navbar.scss */
 .navbar-fixed nav {
   position: fixed;
 }
 
-@media only screen and (min-width: 1021px) {
-  /* line 203, ../sass/components/_navbar.scss */
+@media only screen and (min-width: 1121px) {
+  /* line 204, ../sass/components/_navbar.scss */
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 56px;
     line-height: 56px;
   }
 
-  /* line 207, ../sass/components/_navbar.scss */
+  /* line 208, ../sass/components/_navbar.scss */
   .navbar-fixed {
     height: 56px;
   }
@@ -8762,7 +8747,7 @@ html {
     font-size: 14px;
   }
 }
-@media only screen and (min-width: 1020px) {
+@media only screen and (min-width: 1120px) {
   /* line 6, ../sass/components/_typography.scss */
   html {
     font-size: 14.5px;
@@ -9179,7 +9164,7 @@ small {
     bottom: 0%;
   }
 }
-@media only screen and (min-width: 901px) and (max-width: 1020px) {
+@media only screen and (min-width: 901px) and (max-width: 1120px) {
   /* line 1, ../sass/components/_toast.scss */
   #toast-container {
     min-width: 30%;
@@ -9187,7 +9172,7 @@ small {
     bottom: 7%;
   }
 }
-@media only screen and (min-width: 1021px) {
+@media only screen and (min-width: 1121px) {
   /* line 1, ../sass/components/_toast.scss */
   #toast-container {
     min-width: 8%;
@@ -9240,13 +9225,13 @@ small {
     border-radius: 0;
   }
 }
-@media only screen and (min-width: 901px) and (max-width: 1020px) {
+@media only screen and (min-width: 901px) and (max-width: 1120px) {
   /* line 22, ../sass/components/_toast.scss */
   .toast {
     float: left;
   }
 }
-@media only screen and (min-width: 1021px) {
+@media only screen and (min-width: 1121px) {
   /* line 22, ../sass/components/_toast.scss */
   .toast {
     float: right;
@@ -9704,7 +9689,7 @@ a.waves-effect .waves-ripple {
   border-radius: 2px;
   will-change: top, opacity;
 }
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1120px) {
   /* line 1, ../sass/components/_modal.scss */
   .modal {
     width: 80%;
@@ -10176,8 +10161,8 @@ input[type=search].invalid,
 input[type=search]:focus.invalid,
 textarea.materialize-textarea.invalid,
 textarea.materialize-textarea:focus.invalid {
-  border-bottom: 1px solid #FF312E;
-  box-shadow: 0 1px 0 0 #FF312E;
+  border-bottom: 1px solid #F61A25;
+  box-shadow: 0 1px 0 0 #F61A25;
 }
 /* line 104, ../sass/components/_form.scss */
 input[type=text].invalid + label:after, input[type=text]:focus.invalid + label:after,
@@ -10202,7 +10187,7 @@ input[type=search]:focus.invalid + label:after,
 textarea.materialize-textarea.invalid + label:after,
 textarea.materialize-textarea:focus.invalid + label:after {
   content: attr(data-error);
-  color: #FF312E;
+  color: #F61A25;
   opacity: 1;
 }
 /* line 112, ../sass/components/_form.scss */
@@ -10283,7 +10268,7 @@ textarea.materialize-textarea + label:after {
 .input-field .prefix ~ label {
   margin-left: 3rem;
 }
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1120px) {
   /* line 160, ../sass/components/_form.scss */
   .input-field .prefix ~ input {
     width: 86%;
@@ -11238,7 +11223,7 @@ select {
   left: auto;
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1120px) {
   /* line 80, ../sass/components/_sideNav.scss */
   .side-nav.fixed {
     left: -105%;
@@ -12701,49 +12686,36 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   }
 }
 /* line 1, ../sass/components/_costum.scss */
-body {
-  background: ivory;
-}
-
-/* line 5, ../sass/components/_costum.scss */
 #top_word {
   background-color: rgba(0, 0, 0, 0.65);
   color: white;
-  margin-top: 15em !important;
-  margin-bottom: 11em !important;
   margin: 0px auto;
   width: 400px;
 }
 @media only screen and (max-width: 900px) {
-  /* line 5, ../sass/components/_costum.scss */
+  /* line 1, ../sass/components/_costum.scss */
   #top_word {
     width: 300px;
-    margin-top: 12em !important;
+    margin-top: 4em !important;
     margin-bottom: 10em !important;
   }
 }
-@media only screen and (max-width: 1020px) {
-  /* line 5, ../sass/components/_costum.scss */
-  #top_word {
-    margin-bottom: 12em !important;
-  }
-}
-/* line 22, ../sass/components/_costum.scss */
+/* line 16, ../sass/components/_costum.scss */
 #top_word h1, #top_word p, #top_word a {
   text-align: center;
 }
-/* line 26, ../sass/components/_costum.scss */
+/* line 20, ../sass/components/_costum.scss */
 #top_word h1 {
   font-size: 3.5em;
   font-family: Berlin Sans FB;
   margin-top: 0;
 }
-/* line 31, ../sass/components/_costum.scss */
+/* line 25, ../sass/components/_costum.scss */
 #top_word p {
   font-size: 1.5em;
 }
 
-/* line 36, ../sass/components/_costum.scss */
+/* line 30, ../sass/components/_costum.scss */
 #top_pic {
   position: fixed;
   margin-top: 0px;
@@ -12754,13 +12726,13 @@ body {
   clip: rect(0px, 2000px, 650px, 0px);
 }
 @media only screen and (max-width: 900px) {
-  /* line 36, ../sass/components/_costum.scss */
+  /* line 30, ../sass/components/_costum.scss */
   #top_pic {
     width: 1020px;
   }
 }
 
-/* line 54, ../sass/components/_costum.scss */
+/* line 48, ../sass/components/_costum.scss */
 #top_btn {
   position: absolute;
   bottom: 5px;
@@ -12774,22 +12746,114 @@ body {
   border: solid 2px rgba(255, 255, 255, 0.6);
   transition: border 0.5s,color 0.5s, background-color 0.5s;
 }
-/* line 68, ../sass/components/_costum.scss */
+/* line 62, ../sass/components/_costum.scss */
 #top_btn:hover {
   border: solid 2px rgba(70, 70, 70, 0.6);
   color: #323232;
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-/* line 75, ../sass/components/_costum.scss */
+/* line 69, ../sass/components/_costum.scss */
+#content {
+  background: ivory;
+  padding-top: 100px;
+}
+
+/* line 74, ../sass/components/_costum.scss */
 #about_us {
-  margin-top: 30px;
+  padding-top: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
-/* line 81, ../sass/components/_costum.scss */
-#about_us .card img {
-  width: 300px;
+/* line 80, ../sass/components/_costum.scss */
+#about_us .card {
+  -webkit-background-size: 60% auto !important;
+  -moz-background-size: 60% auto !important;
+  background-size: 60% auto !important;
+  background-repeat: no-repeat !important;
+  background-position: right bottom !important;
+  background-color: white !important;
 }
-/* line 84, ../sass/components/_costum.scss */
+@media only screen and (min-width: 901px) {
+  /* line 80, ../sass/components/_costum.scss */
+  #about_us .card {
+    height: 30em;
+  }
+}
+/* line 87, ../sass/components/_costum.scss */
 #about_us .card p {
+  font-size: 150%;
+}
+/* line 88, ../sass/components/_costum.scss */
+#about_us .card p:nth-child(2) {
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-box-shadow: 0 0 60px 20px rgba(255, 255, 255, 0.4);
+  -moz-box-shadow: 0 0 60px 20px rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 60px 20px rgba(255, 255, 255, 0.4);
+}
+/* line 103, ../sass/components/_costum.scss */
+#about_us .card .title {
   font-size: 200%;
+}
+/* line 106, ../sass/components/_costum.scss */
+#about_us .card:nth-child(1) {
+  background: url("../pic/light_bulb.png");
+}
+/* line 107, ../sass/components/_costum.scss */
+#about_us .card:nth-child(2) {
+  background: url("../pic/wrench.png");
+}
+/* line 108, ../sass/components/_costum.scss */
+#about_us .card:nth-child(3) {
+  background: url("../pic/wrench.png");
+}
+
+/* line 113, ../sass/components/_costum.scss */
+#member p {
+  font-size: 150%;
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+/* line 123, ../sass/components/_costum.scss */
+#event_info .card .event-bold {
+  font-size: 110%;
+  font-weight: bold;
+}
+/* line 128, ../sass/components/_costum.scss */
+#event_info .card p {
+  font-size: 120%;
+}
+/* line 132, ../sass/components/_costum.scss */
+#event_info .card .eventBtn {
+  margin: 3px;
+}
+
+/* line 140, ../sass/components/_costum.scss */
+#device .card .card-image {
+  height: 15em;
+  -webkit-background-size: auto 100% !important;
+  -moz-background-size: auto 100% !important;
+  background-size: auto 100% !important;
+  background-repeat: no-repeat !important;
+  background-position: center bottom !important;
+}
+@media only screen and (max-width: 900px) {
+  /* line 140, ../sass/components/_costum.scss */
+  #device .card .card-image {
+    height: 250px;
+  }
+}
+/* line 151, ../sass/components/_costum.scss */
+#device .card .card-image img {
+  margin-bottom: 0px;
+}
+/* line 156, ../sass/components/_costum.scss */
+#device .card p {
+  font-size: 120%;
+}
+/* line 159, ../sass/components/_costum.scss */
+#device .card .deviceBtn {
+  margin-bottom: 6px;
 }
