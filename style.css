@@ -1,0 +1,197 @@
+body{
+	font-family: "微軟正黑體";
+	background-color: #ffffff;
+	background-image: url("http://www.transparenttextures.com/patterns/batthern.png");
+
+}
+.navbar-fixed nav{
+	position: relative!important;
+}
+	.entry-thumb img{
+		border-radius: 7px;
+		box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+		width: auto !important;
+	    max-height: 470px;
+	    max-width: 100%;
+	}
+	.content-area .entry-thumb {
+		position: relative;
+		text-align: center;
+		margin: 13px 0;
+		//max-height: 600px;
+	}
+	.hentry .title-post {
+		font-size: 26px;
+		font-weight: 600;
+		line-height: normal;
+		padding-bottom: 10px;
+		margin: 0;
+	}
+		.hentry .meta-post {
+		margin-bottom: 20px;
+	}
+	.hentry .meta-post,
+	.hentry .meta-post a {
+		color: #5e5e5e;
+		font-size: 13px;
+	}
+	.hentry .meta-post span {
+		position: relative;
+		padding-left: 17px;
+		margin-right: 15px;
+	}
+	.hentry .meta-post .cat-links {
+		display: inline-block;
+	}	
+	.hentry .meta-post span:before {
+		position: absolute;
+		left: 0;
+		top: 1px;
+		font-family: "FontAwesome";
+		line-height: normal;
+	}
+	.hentry .meta-post span.posted-on:before {
+		content:"\f073";
+	}
+	.hentry .meta-post span.byline:before {
+		content:"\f007";
+		left: 4px;
+	}
+	.hentry .meta-post span.comments-link:before {
+		content:"\f086";
+	}
+	.hentry .meta-post span.cat-links:before {
+		content:"\f114";
+		top: 4px;
+	}
+	
+	span.author.vcard {
+		padding: 0;
+		margin: 0;
+	}
+	.hentry blockquote {
+	    background-color: #333;
+	    color: #fff;
+	    font-size: 16px;
+	    font-style: italic;
+	    line-height: 23px;
+	    margin-bottom: 30px;
+	    padding: 30px 35px;
+	    position: relative;
+	}
+	/*--------------------------------------------------------------
+Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+/*--------------------------------------------------------------
+Navigation
+--------------------------------------------------------------*/
+.site-main .comment-navigation,
+.site-main .posts-navigation,
+.site-main .post-navigation {
+	margin: 0 0 1.5em;
+	overflow: hidden;
+
+}
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+	float: left;
+	margin-bottom: 13px;
+	text-align: left;
+}
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+	float: right;
+	text-align: right;
+	//width: 50%;
+}
+.posts-navigation .nav-previous {
+	padding-left: 15px;
+}
+.posts-navigation .nav-next {
+	padding-right: 15px;
+}
+.post-navigation {
+	margin: 49px 0;
+		background-color: #FF3131;
+	padding: 0 13px;
+}
+.tags-links{
+	float: right;
+    border: 1px solid #ddd;
+    padding: 3px 7px;
+    border-radius: 15px;
+    background-color: #ddd;
+}
+.tags-links a{
+	color: blue;
+}
+/*
+comment
+*/
+.comment-form-comment textarea{
+	height: 170px;
+}
+
+
+/*
+sidebar
+*/
+.widget-area li a{
+	color: #337ab7!important;
+}
+
+/**/
+.col-centered{
+	margin: 0 auto;
+	float: none;
+}
+#birs_appointment_location,#birs_appointment_service,#birs_appointment_staff{
+	display: block;
+}
+#primary select{
+	display: inherit;
+}
+[type="radio"]:not(:checked), [type="radio"]:checked{
+	position: relative;
+    visibility: visible;
+}
+.entry-content td{
+	width: auto;
+}
+.entry-content img{
+	
+    max-height: 370px;
+    width: auto;
+    max-width: 100%;
+}

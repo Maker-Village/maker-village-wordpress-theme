@@ -1,0 +1,58 @@
+<?php 
+	global $wtf_nth;
+	global $timeyear_set;
+	$thumb_id = get_post_thumbnail_id();
+	$thumb_url = wp_get_attachment_image_src($thumb_id,'sydney-large-thumb', true);
+	
+	/*	<?php the_title(); ?>
+    the_permalink(); echo $thumb_url[0]; the_title(); the_excerpt();
+    <?php echo the_date('Y-m-d', '', '',false); ?>
+        the_date('M') */ ?>
+        <?php //DEBUG
+/*	echo '<pre>';
+	print_r($thumb_url);
+	echo '</pre>';*/
+	$wtf_nth++;
+?>
+            <?php
+	// trouble if-else
+
+	if ($wtf_nth==1) {
+	    echo '';
+		$post_year_first = get_the_date('Y');
+		if($timeyear_set!=$post_year_first)){
+			$timeyear_set = $post_year_first;
+			echo '<div class="year-box grid-item"><div class="timeline-obj"></div><div class="year-box-item"><h2>'.$post_year_first.'</h2></div></div>';
+		}
+		
+		$wtf_nth++;
+	}else{
+		$post_year = get_the_date('Y','','',false);
+		if($post_year_first !=$post_year){
+   $post_year_first = $post_year;
+			echo '<div class="year-box grid-item"><div class="timeline-obj"></div><div class="year-box-item"><h2>'.$post_year.'</h2></div></div>';
+   $wtf_nth++;
+		}
+	}
+	//$post_date = the_date('M D','','',false);
+?>
+                <div class="thumbnail grid-item <?php echo ($wtf_nth==2)?'nth-child-not-working-sad':$wtf_nth;?>" post-date="<?php
+						$days_old = (current_time(timestamp) - get_the_time('U') - (get_settings('gmt_offset') *3600 ) ) / (60*60*24);
+						if ($days_old <=1) {
+							echo 'Today';
+						} elseif ($days_old > 1 & $days_old <= 2) {
+							echo 'Yesterday';
+						} else {
+							the_time('M d');
+						}
+					?>">
+                    <div class="timeline-obj"></div>
+                    <a href="<?php the_permalink(); ?>"><img src="<?php echo $thumb_url[0]; ?>" alt=""></a>
+                    <div class="caption">
+                        <h4><?php echo get_the_title(); ?></h4>
+                        <?php 
+    	the_excerpt(); 
+    	?>
+                            <p class="more"><a href="<?php the_permalink(); ?>" class="btn btn-success" role="button">READ MORE...</a></p>
+                    </div>
+                </div>
